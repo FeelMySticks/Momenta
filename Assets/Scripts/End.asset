@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: End
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":-37.27067},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-544.0,"y":-195.0},"guid":"eeb914ae-5b9d-4d5c-beb8-e827484273a7","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter","$id":"9"},{"kind":"Scene","defaultValues":{"name":{"$content":"LevelComplete","$type":"System.String"}},"position":{"x":-267.0,"y":-199.0},"guid":"d06b7fad-8f51-46a0-aeef-537313a650e8","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-467.0,"y":-79.0},"guid":"5faf3c52-580b-475a-93f4-5b218a3ec6b6","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"a60b4465-2f70-4738-ab88-bf0f2cd288c4","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"780ceb71-7c40-4c72-823e-8dbe2cea0c2b","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-605.0,"yMin":-292.0,"xMax":-50.0,"yMax":33.0},"label":"Level
+      Complete","comment":null,"color":{"r":0.6415094,"g":0.2753649,"b":0.4596064,"a":1.0},"guid":"e8322466-964d-485b-ac4d-bf987b24dd9a","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
