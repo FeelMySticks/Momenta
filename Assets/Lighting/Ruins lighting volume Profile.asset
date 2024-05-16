@@ -48,7 +48,7 @@ MonoBehaviour:
     m_Value: 35.5
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 18
+    m_Value: 38.1
   enableVolumetricFog:
     m_OverrideState: 0
     m_Value: 0
@@ -109,12 +109,12 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.76
+    m_Value: 0.4
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 0.653
+    m_Value: 0.611
   radius:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 2
   spatialBilateralAggressiveness:
     m_OverrideState: 0
@@ -229,6 +229,8 @@ MonoBehaviour:
   - {fileID: -6538763653357948342}
   - {fileID: -7390567396295918365}
   - {fileID: -2437724179881267585}
+  - {fileID: 1374768156917777167}
+  - {fileID: 4300866512511763299}
 --- !u!114 &796927357048523329
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -244,7 +246,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 0
   meteringMode:
     m_OverrideState: 1
     m_Value: 2
@@ -252,11 +254,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   fixedExposure:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 14.010002
   compensation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.3
   limitMin:
     m_OverrideState: 1
     m_Value: -1
@@ -355,10 +357,10 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   histogramPercentages:
     m_OverrideState: 0
-    m_Value: {x: 40, y: 90}
+    m_Value: {x: 0, y: 49.999996}
   histogramUseCurveRemapping:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   targetMidGray:
     m_OverrideState: 0
     m_Value: 0
@@ -380,3 +382,65 @@ MonoBehaviour:
   proceduralSoftness:
     m_OverrideState: 0
     m_Value: 0.5
+--- !u!114 &1374768156917777167
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  postExposure:
+    m_OverrideState: 1
+    m_Value: 0
+  contrast:
+    m_OverrideState: 0
+    m_Value: 9
+  colorFilter:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 0
+  saturation:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &4300866512511763299
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b24b200358312b4fa1004e2431c2f1f, type: 3}
+  m_Name: ShadowsMidtonesHighlights
+  m_EditorClassIdentifier: 
+  active: 1
+  shadows:
+    m_OverrideState: 1
+    m_Value: {x: 0.8267302, y: 0.88752645, z: 1, w: -0.48410758}
+  midtones:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  highlights:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.97084635, z: 0.8920423, w: 0}
+  shadowsStart:
+    m_OverrideState: 0
+    m_Value: 0
+  shadowsEnd:
+    m_OverrideState: 0
+    m_Value: 0.3
+  highlightsStart:
+    m_OverrideState: 0
+    m_Value: 0.55
+  highlightsEnd:
+    m_OverrideState: 0
+    m_Value: 1
