@@ -155,13 +155,13 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.88
+    m_Value: 1.34
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 0.611
+    m_Value: 0.508
   radius:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 3.24
   spatialBilateralAggressiveness:
     m_OverrideState: 0
     m_Value: 0.15
@@ -195,7 +195,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   m_MaximumRadiusInPixels:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 40
   m_BilateralUpsample:
     m_OverrideState: 0
@@ -227,12 +227,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b51a78e223a2e504bb88a059b55229ea, type: 3}
   m_Name: WhiteBalance
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   temperature:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   tint:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
 --- !u!114 &-2437724179881267585
 MonoBehaviour:

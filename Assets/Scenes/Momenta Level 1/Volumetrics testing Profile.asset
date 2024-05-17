@@ -216,7 +216,7 @@ MonoBehaviour:
     m_Value: 453.6
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 410
+    m_Value: 495.59
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
@@ -225,7 +225,7 @@ MonoBehaviour:
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
-    m_Value: 0.249
+    m_Value: 0.404
   depthExtent:
     m_OverrideState: 1
     m_Value: 834.36

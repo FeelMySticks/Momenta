@@ -73,7 +73,7 @@ MonoBehaviour:
   lightLayerName4: Light Layer 4
   lightLayerName5: Light Layer 5
   lightLayerName6: Light Layer 6
-  lightLayerName7: Light Layer 7
+  lightLayerName7: PlayerLightLayer
   decalLayerName0: Decal Layer default
   decalLayerName1: Decal Layer 1
   decalLayerName2: Decal Layer 2
