@@ -78,7 +78,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _Foam_scale: 172.19
     - _Mask_scale: 0.096
-    - _Opacity: 0
+    - _Opacity: 0.88
     - _OpaqueCullMode: 2
     - _Reflection_falloff: 43.7
     - _RefractionStrength: 0.0977
