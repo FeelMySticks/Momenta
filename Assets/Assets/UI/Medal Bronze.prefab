@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7834161313571589188}
   - component: {fileID: 378389573068372705}
   - component: {fileID: 8188239952480068166}
+  - component: {fileID: 4358731868268830162}
+  - component: {fileID: 4846001121114293483}
   m_Layer: 5
   m_Name: Medal Bronze
   m_TagString: Untagged
@@ -76,3 +78,35 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4358731868268830162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7397295370935200396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &4846001121114293483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7397295370935200396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Medal
+      Remover","summary":"Removes medal when fail conditions are met","pan":{"x":32.79164,"y":1.666662},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-318.0,"y":-132.0},"guid":"5446464c-e126-43e1-aa3a-ae1da4e4e4bf","$version":"A","$type":"Unity.VisualScripting.Update","$id":"10"},{"defaultValues":{},"position":{"x":6.0,"y":-129.0},"guid":"18e315a2-564d-4573-b655-c8c51bb060b2","$version":"A","$type":"Unity.VisualScripting.If","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Bronze","$type":"System.String"}},"position":{"x":-327.0,"y":-23.0},"guid":"7444c3e1-85f0-4b05-8821-5c99edbfad95","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"type":"System.Boolean","value":{"$content":false,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-299.0,"y":79.0},"guid":"877fd8f5-51e2-4072-8436-8e93f0aa7e85","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":99999.0,"y":99999.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":161.0,"y":-128.0},"guid":"ea9dfe20-31af-482d-8b11-a32311470d67","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"18"},{"numeric":false,"defaultValues":{},"position":{"x":-123.0,"y":-19.0},"guid":"237838f9-2b5e-4443-8a1a-d5b1d5391c99","$version":"A","$type":"Unity.VisualScripting.Equal","$id":"21"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"c2fff385-db0d-4f72-98ac-4cd7cf5b936f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"18"},"destinationKey":"assign","guid":"6322c16d-d9d7-472b-b2c2-a27f8edb929f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"equal","destinationUnit":{"$ref":"12"},"destinationKey":"condition","guid":"16604449-27cd-4123-b216-b996dcb2c004","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"21"},"destinationKey":"a","guid":"ec8aeb3b-2b35-44c6-b2c5-4785fc41e07a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"21"},"destinationKey":"b","guid":"f1e455d6-74ee-47df-9acf-a0e993de887a","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-346.0,"yMin":-181.0,"xMax":347.0,"yMax":181.0},"label":"Medal
+      Removal","comment":null,"color":{"r":0.6981132,"g":0.1942862,"b":0.1942862,"a":1.0},"guid":"906c9d26-1433-4d06-b84a-69fc6ee636bb","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}}'
+    _objectReferences: []
